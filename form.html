@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Form<form action=""></form></title>
+    <style>
+        form.test label{
+            display: block;
+            display:flex
+        }
+        
+    </style>
 </head>
 <body>
     <header>
@@ -13,7 +20,9 @@
         <section>
              <h1>My Form</h1>
             <form>
-                <label for="">your name</label>
+                <fieldset class="test">
+                    <legend>basic info</legend>
+                   <label for="">your name</label>
                 <input type="text">
                 <br>
                 <br>
@@ -27,19 +36,37 @@
                 <br>
                 <button>enter</button>
                 <input type="reset" value="clear">
+                </fieldset>
             
                
                 <fieldset>
                     <legend>Pitha puli</legend>
-                     <input type="radio" name="" id="vapa Pitha">
+                     <input type="radio" name="Pitha puli" id="vapa Pitha">
                      <label for="vapa Pitha">vapa Pitha</label>
                      <br>
-                       <input type="radio" name="" id="chitoy">
+                       <input type="radio" name="Pitha puli" id="chitoy">
                      <label for="chitoy">chitoy pitha</label>
-                    
+                    <br>
+                    <input type="radio" name="Pitha puli" id="dal puri">
+                     <label for="dal puri">dal puri</label>
                    
                 </fieldset>
-             
+                <fieldset>
+                    <legend>vorta item</legend>
+                        <input type="checkbox" name="vorta" id="Basic info">
+                        <label for="Basic info">Basic info</label>
+                        <br>
+
+                        <input type="checkbox" name="vorta" id="sutki">
+                        <label for="sutki vorta">sutki vorta</label>
+                        <br>
+                        <button>enter</button>
+                        <input type="reset" value="clear">
+                </fieldset>
+             <fieldset>
+                <legend>text info</legend>
+                <textarea cols="30px" rows="4px" name="" id=""></textarea>
+             </fieldset>
             </form>
          
         </section>
