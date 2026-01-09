@@ -14,3 +14,7 @@ nav li a{
     text-decoration: none;
 
 } 
+nav li :hover{
+    background-color: crimson;
+}
+
